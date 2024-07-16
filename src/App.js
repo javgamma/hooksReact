@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import LikeButton from './components/LikeButton';
+import ScreenContainer from './components/ScreenContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LikeButton/>
+
+
+      <div className='flex justify-center pt-10'>
+        <ScreenContainer/>
+      </div>
     </div>
   );
 }
