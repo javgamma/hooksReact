@@ -7,7 +7,7 @@ const ComponentB = ({x, xOtra, incrementX}) => {
 
   return (
     
-      <div className="border p-4 m-4 p-4 text-left">
+      <div className="border m-4 p-4 text-left">
       <h1 className="text-2xl mb-2">ComponentB</h1>
       <p className='mb-4'> x={x}</p>
      <ComponentC x={xOtra} incrementX={incrementX}/>
